@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@400;600&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: #f5f5f5;
+    font-family: 'Baloo Chettan 2', cursive;
+    /*display*/
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    justify-content: center;
+    margin: 0;
+    align-items: center;
+}
+
+h1 {
+    color: #e6a8d7;
+    font-size: 5rem;
+    opacity: 0.4rem;
+    text-align: center;
+}
+
+form {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 100%;
+    width: 500px;
+}
+
+.input {
+    border: none;
+    padding: 1rem 2rem;
+    width: 100%;
+    color: #a036d1;
+    font-family: 'Baloo Chettan 2', cursive;
+    font-size: 1.4rem;
+    display: block;
+}
+
+.input:focus {
+    outline-color: #e6a8d7;
+    ;
+}
+
+.input::placeholder {
+    color: #d6cadd;
+    font-size: 1.4rem;
+}
+
+.todos {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    list-style-type: none;
+    font-family: 'Baloo Chettan 2', cursive;
+    color: #a036d1;
+    font-size: 1.4rem;
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+.todos li {
+    text-align: left;
+    border-top: 1px solid #796f6f;
+    cursor: pointer;
+    padding: 1rem 2rem;
+}
+
+.todos li.completed {
+    color: #c9a0dc;
+    text-decoration-line: line-through;
+}
+
+small {
+    padding: 1rem 2rem;
+    text-align: center;
+    width: 50%;
+    margin-top: 3rem
+}
