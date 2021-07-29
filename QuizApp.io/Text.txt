@@ -1,0 +1,11 @@
+This is a mini project of a Quiz application. 
+
+Technologies Used:
+1. Vanilla JS
+2. HTML
+3.CSS
+
+Features 
+1. JS Timer 
+2. Responsive 
+
